@@ -1,6 +1,7 @@
 import cmath
 
 # Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0). Calcule e mostre as raízes reais. 
+# Deixei o código preparado para lidar com raízes complexas, caso o delta seja negativo - igual exercicio 20.
 coefficientA: float = 0.0
 coefficientB: float = 0.0
 coefficientC: float = 0.0
