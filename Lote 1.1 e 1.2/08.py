@@ -1,8 +1,4 @@
 #Receba o valor de um depósito em poupança. Calcule e mostre o valor e após 1 mês de aplicação sabendo que rende 1,3% a. m.
-amount: float = 0.0
-
-months: int = 1
-
 def sanitize_input(user_input: str) -> float:
     user_input = user_input.replace(',', '.').replace(' ', '').strip()
     try:
